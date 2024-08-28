@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */; };
-		D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833592C7F506E00E9CC29 /* ContentView.swift */; };
 		D648335C2C7F506F00E9CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335B2C7F506F00E9CC29 /* Assets.xcassets */; };
 		D648335F2C7F506F00E9CC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */; };
+		D648337D2C7F57ED00E9CC29 /* LightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648337C2C7F57ED00E9CC29 /* LightStyle.swift */; };
+		D648337F2C7F57FF00E9CC29 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648337E2C7F57FF00E9CC29 /* UIColor.swift */; };
+		D64833822C7F586200E9CC29 /* CustomTextFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833812C7F586200E9CC29 /* CustomTextFieldStyle.swift */; };
+		D64833842C7F587200E9CC29 /* ikncigorevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833832C7F587200E9CC29 /* ikncigorevApp.swift */; };
+		D64833872C7F588800E9CC29 /* TextInputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833862C7F588800E9CC29 /* TextInputsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D64833542C7F506E00E9CC29 /* SwiftUIComponentsnew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponentsnew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsnewApp.swift; sourceTree = "<group>"; };
-		D64833592C7F506E00E9CC29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D648335B2C7F506F00E9CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D648337C2C7F57ED00E9CC29 /* LightStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightStyle.swift; sourceTree = "<group>"; };
+		D648337E2C7F57FF00E9CC29 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D64833812C7F586200E9CC29 /* CustomTextFieldStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextFieldStyle.swift; sourceTree = "<group>"; };
+		D64833832C7F587200E9CC29 /* ikncigorevApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ikncigorevApp.swift; sourceTree = "<group>"; };
+		D64833862C7F588800E9CC29 /* TextInputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +41,7 @@
 		D648334B2C7F506E00E9CC29 = {
 			isa = PBXGroup;
 			children = (
+				D648337A2C7F57AD00E9CC29 /* ikncigorev */,
 				D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */,
 				D64833552C7F506E00E9CC29 /* Products */,
 			);
@@ -51,8 +58,6 @@
 		D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */ = {
 			isa = PBXGroup;
 			children = (
-				D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */,
-				D64833592C7F506E00E9CC29 /* ContentView.swift */,
 				D648335B2C7F506F00E9CC29 /* Assets.xcassets */,
 				D648335D2C7F506F00E9CC29 /* Preview Content */,
 			);
@@ -65,6 +70,34 @@
 				D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D648337A2C7F57AD00E9CC29 /* ikncigorev */ = {
+			isa = PBXGroup;
+			children = (
+				D64833802C7F584200E9CC29 /* Inputs */,
+				D648337B2C7F57B400E9CC29 /* UIColor+Extensions.swift */,
+			);
+			path = ikncigorev;
+			sourceTree = "<group>";
+		};
+		D648337B2C7F57B400E9CC29 /* UIColor+Extensions.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D648337C2C7F57ED00E9CC29 /* LightStyle.swift */,
+				D648337E2C7F57FF00E9CC29 /* UIColor.swift */,
+			);
+			path = "UIColor+Extensions.swift";
+			sourceTree = "<group>";
+		};
+		D64833802C7F584200E9CC29 /* Inputs */ = {
+			isa = PBXGroup;
+			children = (
+				D64833812C7F586200E9CC29 /* CustomTextFieldStyle.swift */,
+				D64833832C7F587200E9CC29 /* ikncigorevApp.swift */,
+				D64833862C7F588800E9CC29 /* TextInputsView.swift */,
+			);
+			path = Inputs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +132,7 @@
 				TargetAttributes = {
 					D64833532C7F506E00E9CC29 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -137,8 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */,
-				D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */,
+				D64833842C7F587200E9CC29 /* ikncigorevApp.swift in Sources */,
+				D64833872C7F588800E9CC29 /* TextInputsView.swift in Sources */,
+				D648337D2C7F57ED00E9CC29 /* LightStyle.swift in Sources */,
+				D648337F2C7F57FF00E9CC29 /* UIColor.swift in Sources */,
+				D64833822C7F586200E9CC29 /* CustomTextFieldStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIComponentsnew/Preview Content\"";
@@ -288,6 +326,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihan.SwiftUIComponentsnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,6 +337,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIComponentsnew/Preview Content\"";
