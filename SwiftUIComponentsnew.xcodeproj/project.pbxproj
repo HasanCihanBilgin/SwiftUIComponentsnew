@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */; };
-		D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833592C7F506E00E9CC29 /* ContentView.swift */; };
 		D648335C2C7F506F00E9CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335B2C7F506F00E9CC29 /* Assets.xcassets */; };
 		D648335F2C7F506F00E9CC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */; };
+		D648336A2C7F52E000E9CC29 /* FilePasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833692C7F52E000E9CC29 /* FilePasswordTextField.swift */; };
+		D648336C2C7F52F200E9CC29 /* PasswordInputsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648336B2C7F52F200E9CC29 /* PasswordInputsView.swift */; };
+		D648336E2C7F52FF00E9CC29 /* PasswordInputsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648336D2C7F52FF00E9CC29 /* PasswordInputsApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D64833542C7F506E00E9CC29 /* SwiftUIComponentsnew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponentsnew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsnewApp.swift; sourceTree = "<group>"; };
-		D64833592C7F506E00E9CC29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D648335B2C7F506F00E9CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D64833692C7F52E000E9CC29 /* FilePasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePasswordTextField.swift; sourceTree = "<group>"; };
+		D648336B2C7F52F200E9CC29 /* PasswordInputsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputsView.swift; sourceTree = "<group>"; };
+		D648336D2C7F52FF00E9CC29 /* PasswordInputsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputsApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		D648334B2C7F506E00E9CC29 = {
 			isa = PBXGroup;
 			children = (
+				D64833662C7F52A300E9CC29 /* PasswordInputs */,
 				D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */,
 				D64833552C7F506E00E9CC29 /* Products */,
 			);
@@ -51,8 +54,6 @@
 		D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */ = {
 			isa = PBXGroup;
 			children = (
-				D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */,
-				D64833592C7F506E00E9CC29 /* ContentView.swift */,
 				D648335B2C7F506F00E9CC29 /* Assets.xcassets */,
 				D648335D2C7F506F00E9CC29 /* Preview Content */,
 			);
@@ -65,6 +66,16 @@
 				D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D64833662C7F52A300E9CC29 /* PasswordInputs */ = {
+			isa = PBXGroup;
+			children = (
+				D64833692C7F52E000E9CC29 /* FilePasswordTextField.swift */,
+				D648336B2C7F52F200E9CC29 /* PasswordInputsView.swift */,
+				D648336D2C7F52FF00E9CC29 /* PasswordInputsApp.swift */,
+			);
+			path = PasswordInputs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */,
-				D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */,
+				D648336C2C7F52F200E9CC29 /* PasswordInputsView.swift in Sources */,
+				D648336A2C7F52E000E9CC29 /* FilePasswordTextField.swift in Sources */,
+				D648336E2C7F52FF00E9CC29 /* PasswordInputsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
