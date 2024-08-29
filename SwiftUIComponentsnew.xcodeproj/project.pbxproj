@@ -7,18 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */; };
-		D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64833592C7F506E00E9CC29 /* ContentView.swift */; };
-		D648335C2C7F506F00E9CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335B2C7F506F00E9CC29 /* Assets.xcassets */; };
-		D648335F2C7F506F00E9CC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */; };
+		D648346D2C80734B00E9CC29 /* BaseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834582C80734B00E9CC29 /* BaseButton.swift */; };
+		D648346E2C80734B00E9CC29 /* ChipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834592C80734B00E9CC29 /* ChipButton.swift */; };
+		D648346F2C80734B00E9CC29 /* IconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648345A2C80734B00E9CC29 /* IconButton.swift */; };
+		D64834702C80734B00E9CC29 /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648345B2C80734B00E9CC29 /* PrimaryButton.swift */; };
+		D64834712C80734B00E9CC29 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648345C2C80734B00E9CC29 /* SecondaryButton.swift */; };
+		D64834722C80734B00E9CC29 /* TertiaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648345D2C80734B00E9CC29 /* TertiaryButton.swift */; };
+		D64834732C80734B00E9CC29 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648345E2C80734B00E9CC29 /* TextButton.swift */; };
+		D64834742C80734B00E9CC29 /* ButtonSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834602C80734B00E9CC29 /* ButtonSize.swift */; };
+		D64834752C80734B00E9CC29 /* ButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834612C80734B00E9CC29 /* ButtonType.swift */; };
+		D64834762C80734B00E9CC29 /* LightStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834642C80734B00E9CC29 /* LightStyle.swift */; };
+		D64834772C80734B00E9CC29 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834652C80734B00E9CC29 /* UIColor.swift */; };
+		D64834782C80734B00E9CC29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64834672C80734B00E9CC29 /* Assets.xcassets */; };
+		D64834792C80734B00E9CC29 /* ButtonRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834682C80734B00E9CC29 /* ButtonRepresentable.swift */; };
+		D648347A2C80734B00E9CC29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64834692C80734B00E9CC29 /* ContentView.swift */; };
+		D648347C2C80734B00E9CC29 /* ilkgorevApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D648346B2C80734B00E9CC29 /* ilkgorevApp.swift */; };
+		D64834832C807C4000E9CC29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64834812C807C4000E9CC29 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D64833542C7F506E00E9CC29 /* SwiftUIComponentsnew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponentsnew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIComponentsnewApp.swift; sourceTree = "<group>"; };
-		D64833592C7F506E00E9CC29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D648335B2C7F506F00E9CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D64834582C80734B00E9CC29 /* BaseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButton.swift; sourceTree = "<group>"; };
+		D64834592C80734B00E9CC29 /* ChipButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChipButton.swift; sourceTree = "<group>"; };
+		D648345A2C80734B00E9CC29 /* IconButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconButton.swift; sourceTree = "<group>"; };
+		D648345B2C80734B00E9CC29 /* PrimaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D648345C2C80734B00E9CC29 /* SecondaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		D648345D2C80734B00E9CC29 /* TertiaryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TertiaryButton.swift; sourceTree = "<group>"; };
+		D648345E2C80734B00E9CC29 /* TextButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		D64834602C80734B00E9CC29 /* ButtonSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonSize.swift; sourceTree = "<group>"; };
+		D64834612C80734B00E9CC29 /* ButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonType.swift; sourceTree = "<group>"; };
+		D64834642C80734B00E9CC29 /* LightStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightStyle.swift; sourceTree = "<group>"; };
+		D64834652C80734B00E9CC29 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		D64834672C80734B00E9CC29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D64834682C80734B00E9CC29 /* ButtonRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonRepresentable.swift; sourceTree = "<group>"; };
+		D64834692C80734B00E9CC29 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D648346A2C80734B00E9CC29 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D648346B2C80734B00E9CC29 /* ilkgorevApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ilkgorevApp.swift; sourceTree = "<group>"; };
+		D64834812C807C4000E9CC29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +60,7 @@
 		D648334B2C7F506E00E9CC29 = {
 			isa = PBXGroup;
 			children = (
+				D648346C2C80734B00E9CC29 /* Buttonn */,
 				D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */,
 				D64833552C7F506E00E9CC29 /* Products */,
 			);
@@ -51,18 +77,62 @@
 		D64833562C7F506E00E9CC29 /* SwiftUIComponentsnew */ = {
 			isa = PBXGroup;
 			children = (
-				D64833572C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift */,
-				D64833592C7F506E00E9CC29 /* ContentView.swift */,
-				D648335B2C7F506F00E9CC29 /* Assets.xcassets */,
-				D648335D2C7F506F00E9CC29 /* Preview Content */,
 			);
 			path = SwiftUIComponentsnew;
 			sourceTree = "<group>";
 		};
-		D648335D2C7F506F00E9CC29 /* Preview Content */ = {
+		D648345F2C80734B00E9CC29 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				D648335E2C7F506F00E9CC29 /* Preview Assets.xcassets */,
+				D64834582C80734B00E9CC29 /* BaseButton.swift */,
+				D64834592C80734B00E9CC29 /* ChipButton.swift */,
+				D648345A2C80734B00E9CC29 /* IconButton.swift */,
+				D648345B2C80734B00E9CC29 /* PrimaryButton.swift */,
+				D648345C2C80734B00E9CC29 /* SecondaryButton.swift */,
+				D648345D2C80734B00E9CC29 /* TertiaryButton.swift */,
+				D648345E2C80734B00E9CC29 /* TextButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		D64834622C80734B00E9CC29 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				D64834602C80734B00E9CC29 /* ButtonSize.swift */,
+				D64834612C80734B00E9CC29 /* ButtonType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		D64834662C80734B00E9CC29 /* UIColor+Extensions.swift */ = {
+			isa = PBXGroup;
+			children = (
+				D64834642C80734B00E9CC29 /* LightStyle.swift */,
+				D64834652C80734B00E9CC29 /* UIColor.swift */,
+			);
+			path = "UIColor+Extensions.swift";
+			sourceTree = "<group>";
+		};
+		D648346C2C80734B00E9CC29 /* Buttonn */ = {
+			isa = PBXGroup;
+			children = (
+				D64834822C807C4000E9CC29 /* Preview Content */,
+				D648345F2C80734B00E9CC29 /* Button */,
+				D64834622C80734B00E9CC29 /* Enums */,
+				D64834662C80734B00E9CC29 /* UIColor+Extensions.swift */,
+				D64834672C80734B00E9CC29 /* Assets.xcassets */,
+				D64834682C80734B00E9CC29 /* ButtonRepresentable.swift */,
+				D64834692C80734B00E9CC29 /* ContentView.swift */,
+				D648346A2C80734B00E9CC29 /* Info.plist */,
+				D648346B2C80734B00E9CC29 /* ilkgorevApp.swift */,
+			);
+			path = Buttonn;
+			sourceTree = "<group>";
+		};
+		D64834822C807C4000E9CC29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D64834812C807C4000E9CC29 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -99,6 +169,7 @@
 				TargetAttributes = {
 					D64833532C7F506E00E9CC29 = {
 						CreatedOnToolsVersion = 15.4;
+						LastSwiftMigration = 1540;
 					};
 				};
 			};
@@ -125,8 +196,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D648335F2C7F506F00E9CC29 /* Preview Assets.xcassets in Resources */,
-				D648335C2C7F506F00E9CC29 /* Assets.xcassets in Resources */,
+				D64834832C807C4000E9CC29 /* Preview Assets.xcassets in Resources */,
+				D64834782C80734B00E9CC29 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +208,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D648335A2C7F506E00E9CC29 /* ContentView.swift in Sources */,
-				D64833582C7F506E00E9CC29 /* SwiftUIComponentsnewApp.swift in Sources */,
+				D64834712C80734B00E9CC29 /* SecondaryButton.swift in Sources */,
+				D648346D2C80734B00E9CC29 /* BaseButton.swift in Sources */,
+				D64834722C80734B00E9CC29 /* TertiaryButton.swift in Sources */,
+				D648346E2C80734B00E9CC29 /* ChipButton.swift in Sources */,
+				D648347A2C80734B00E9CC29 /* ContentView.swift in Sources */,
+				D64834732C80734B00E9CC29 /* TextButton.swift in Sources */,
+				D648347C2C80734B00E9CC29 /* ilkgorevApp.swift in Sources */,
+				D64834772C80734B00E9CC29 /* UIColor.swift in Sources */,
+				D64834752C80734B00E9CC29 /* ButtonType.swift in Sources */,
+				D64834742C80734B00E9CC29 /* ButtonSize.swift in Sources */,
+				D64834762C80734B00E9CC29 /* LightStyle.swift in Sources */,
+				D648346F2C80734B00E9CC29 /* IconButton.swift in Sources */,
+				D64834792C80734B00E9CC29 /* ButtonRepresentable.swift in Sources */,
+				D64834702C80734B00E9CC29 /* PrimaryButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +352,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIComponentsnew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Buttonn/Preview Content\"";
 				DEVELOPMENT_TEAM = SHK53SAK7F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -288,6 +372,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cihan.SwiftUIComponentsnew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,9 +383,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIComponentsnew/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Buttonn/Preview Content\"";
 				DEVELOPMENT_TEAM = SHK53SAK7F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
